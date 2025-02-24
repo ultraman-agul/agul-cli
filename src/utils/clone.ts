@@ -1,7 +1,7 @@
 import simpleGit, { SimpleGit, SimpleGitOptions } from "simple-git";
 import createLogger from "progress-estimator";
 import chalk from "chalk";
-const figlet = require("figlet");
+import figlet from "figlet";
 import log from "./log";
 // 初始化进度条
 const logger = createLogger({
